@@ -1,0 +1,132 @@
+@media (max-width:1350px) {
+
+
+    .side{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+.learn{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 35%;
+    margin-top: 22px;
+    margin-left: 23%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.one{
+        color: white;
+    width: 100px;
+    font-size: 1.5rem;
+    padding: 3px;
+
+}
+.one1{
+    background-color: blue;
+
+}
+.one2{
+    background-color: rgba(0, 0, 255, 0.319);
+
+}
+
+
+.two{
+    /* border: 2px solid red; */
+    background-color: rgba(173, 216, 230, 0.537);
+    height: 150vh;
+    width: 75%;
+    margin-left: 23%;
+}
+
+
+    
+    .main_container1{
+        margin-top: 25.1%;
+    }
+    .main_container,.main_container1{
+        /* border: 2px solid red; */
+        padding: 10px;
+        display: flex;
+        width: 75%;
+        position: absolute;
+        /* margin-left: 20%; */
+        justify-content: space-evenly;
+        /* align-items: center; */
+        }
+        .container {
+            /* border: 2px solid rgba(161, 159, 159, 0.454); */
+            height: 28rem;
+            width: 20%;
+            position: relative;
+            margin-top: 10px;
+        }
+    
+        .container>img {
+            height: 22rem;
+            width: 100%;
+            margin-left: -10px;
+            object-fit: contain;
+            position: absolute;
+        }
+        .container>h3{
+            font-size: 1.6rem;
+            text-align: center;
+            margin-top: 22rem;
+            color:  #8E7618;
+            /* position: absolute; */
+        }
+        
+    }
+    @media (max-width:1010px) {
+        .learn{   
+            width: 50%;
+        }
+        
+
+    .main_container1{
+        margin-top: 35.1%;
+
+        /* width: 80%; */
+    }
+    .container>img {
+        /* height: 22rem; */
+        margin-left: px;
+        width: 90%;
+    }
+    }
+
+    @media (max-width:700px) {
+        .two{
+            height: 160rem;
+            }
+        .main_container1{
+            margin-top: 110.1%;
+    
+            /* width: 80%; */
+        }
+        .container>img {
+            /* height: 22rem; */
+            margin-left: px;
+            width: 90%;
+        }
+        
+        .main_container,.main_container1{
+            flex-direction: column;
+            }
+            .container {
+                height: 23rem;
+                width: 40%;
+                margin-left: 30%;
+            }
+            .container h3{
+                font-size: 1.5rem;
+            }
+        .container p{
+            font-size: 1.2rem;
+        }
+    }
+    
